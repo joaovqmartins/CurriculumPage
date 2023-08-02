@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+body {
+    background-color: #F5E9CF;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    background-color: #4D455D;
+    width: 100%;
+    padding: 30px;
+    color: #F5E9CF;
+}
+
+.header-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    flex-wrap: wrap;
+    color: #dbc492;
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Ícones de Social-Media */
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+    display: block;
+    margin: 10px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4D455D;
+    background-color: #E96479;
+    border: 1px solid #4D455D;    
+}
+
+.menu a:hover {
+    background-color: #F5E9CF;
+    color: #E96479;
+}
+
+/* Botão | Animação de botão  */
+
+.download a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    border: 1px solid #4D455D;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4D455D;
+    background-color: #E96479;
+    display: block;
+    
+}
+
+.download a:hover {
+    background-color: #F5E9CF;
+    color: #E96479;
+}
+
+/* Seção de Informações, Caracteristicas, e Competências */
+
+section {
+    background-color: #dbc492;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section a {
+    text-decoration: #333;
+}
+
+#texto {
+    font-weight: bold;
+}
+
+h2 {
+ margin: 10px;
+}
+
+p {
+ margin: 10px;
+}
+
+ul {
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Seção de Projetos */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.project {
+    background-color: #4D455D;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 0 200px;
+    border-radius: 10px;
+
+}
+
+.project h3 {
+    padding: 50px;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+
+.project p {
+    margin: 50px;
+    text-align: center;
+    color: #E96479;
+}
+
+.project a {
+    text-decoration: none;
+    color: #4D455D;
+    border: 10px solid #E96479;
+    border-radius: 5px;
+    background-color: #E96479;
+}
+
+.project a:hover {
+  background-color: #F5E9CF;
+  color: #E96479;
+  border: 10px solid #F5E9CF
+}
+
+/* Footer */
+
+footer {
+    background-color: #4D455D;
+    color: #E96479;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: inherit;
+}
+
